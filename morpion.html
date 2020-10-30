@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="morpion.css" />
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+
+    <main>
+        <div id="tableau">
+            <table>
+                <!-- tr*3>td.case*3-->
+                <tr>
+                    <td class="case"></td>
+                    <td class="case col-mid"></td>
+                    <td class="case"></td>
+                </tr>
+                <tr>
+                    <td class="case row-mid"></td>
+                    <td class="case col-mid row-mid"></td>
+                    <td class="case row-mid"></td>
+                </tr>
+                <tr>
+                    <td class="case"></td>
+                    <td class="case col-mid"></td>
+                    <td class="case"></td>
+                </tr>
+            </table>
+            <span id="restart">Restart</span>
+            <p id=msg></p>
+        </div>
+    </main>
+    <script src="morpion.js"></script>
+
+</body>
+
+</html>
