@@ -1,2 +1,2 @@
 # Tic Tac Toe
-![Alt text](https://i.imgur.com/oN19r93.png "Tic Tac Toe")
+![Alt text](https://i.imgur.com/5v1HQFk.png "Tic Tac Toe")
